@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+body{
+    margin:0;
+    padding:0;
+}
+header {
+    font-family: 'Gilda Display', serif;
+    font-size: 15px;
+    letter-spacing:2px;
+    padding: 20px;
+    color: white;
+}
+div h1{
+    font-size: 20px;
+    font-family: 'Gilda Display', serif;
+    font-weight: 900;
+}
+main p:nth-child(2){
+    font-size: 7px;
+}
+main div{
+    color: white;
+    background: linear-gradient(#3DC8D5, #8507E1);
+    width: 100px;
+    height: 100px;
+    padding:30px;
+    text-align: center;
+    margin: 30px auto;
+}
+main{
+    background-color: #333 ;
+    height:500px;
+    background: cover;
+}
+main ul,li,a{
+    list-style: none;
+    text-decoration: none;
+    text-align: right;
+    line-height: 20px;
+    color:white;
+    margin: 15px 20px;
+    padding: 5px;
+}
+section{
+    height: 500px;
+    width: 1000px;
+}
+section img{
+    text-align: center;
+    padding: 70px;
+    width:50%;
+    margin: 0 200px;
+}
+section h2 {
+    margin: 0 200px;
+    padding: 30px 60px;
+    font-family: 'Gilda Display', serif,bold;
+    font-size: 50px;
+    
+}
+section p{
+    text-align: justify;
+    padding: 0 70px;
+    margin: 0 200px;
+    width: 50%;
+}
+article img{
+    margin: 0 250px;
+    width:50%;
+    border-radius: 5px;
+    padding: 30px;
+}
+article h3{
+    font-family: 'Gilda Display', serif;
+    font-size: 35px;
+    margin: 0 300px;
+}
+article p{
+    margin: 0 280px;
+    padding: 20px;
+} 
